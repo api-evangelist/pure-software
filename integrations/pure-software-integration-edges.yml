@@ -1,0 +1,40 @@
+edges:
+- partner_name: PCI Security Standards Council (program listings)
+  partner: null
+  partner_match: register-name
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://listings.pcisecuritystandards.org/assessors_and_solutions/payment_software
+  category: Payment security validation
+  contract_reference:
+    register: PCI SSC program listings (listings.pcisecuritystandards.org / pcisecuritystandards.org)
+    spec_file: null
+    standard: PCI SSC
+    role: pci-validated-vendor
+    registered_name: PureSoftware Pte Ltd
+    website: null
+    matched_domain: null
+    matched_by: register-name
+    identity_source: register-name
+    certified_products:
+    - product: PCI Secure Software (Validated Secure Software)
+      lapsed: true
+      latest_expiry: '2026-11-29'
+      listed: 1
+    signal_note: one certified_products entry per PCI SSC program (Secure Software, PA-DSS, P2PE solution / component
+      / application, 3DS SDK, SPoC, CPoC, MPoC, PTS device, Secure SLC); lapsed = every listed product in that program
+      is past its expiry / reassessment date or marked expired; `listed` is context only. List Access Agreement
+      accepted on Kin's instruction 2026-10-20
+    detected_by: sweep-compliance-assurance.py
+    detected: '2026-10-20'
+    identity_note: register-name 'puresoftware' = pure-software; no wikidata P856
+  detected_by: sweep-compliance-assurance.py
+  first_seen: '2026-10-20'
+generated: '2026-10-20'
+method: searched
+source:
+- https://listings.pcisecuritystandards.org/assessors_and_solutions
+checked:
+- https://listings.pcisecuritystandards.org/assessors_and_solutions
